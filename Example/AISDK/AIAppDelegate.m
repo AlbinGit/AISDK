@@ -7,12 +7,15 @@
 //
 
 #import "AIAppDelegate.h"
+#import "AISDKManager.h"
 
 @implementation AIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[AISDKManager sharedInstance] initWithLicenseID:@"8fa7f0c31d9c473f85680757" andLocalLicenceFile:@"cf28dd99eb2848adaff6b0c3249e6541"];
+
     return YES;
 }
 
