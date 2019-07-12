@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AISDK_Example' do
+  pod 'AISDK', :path => '../'
+
+  target 'AISDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

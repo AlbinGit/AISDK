@@ -1,0 +1,29 @@
+//
+//  AIViewController.m
+//  AISDK
+//
+//  Created by AlbinEmail@163.com on 07/12/2019.
+//  Copyright (c) 2019 AlbinEmail@163.com. All rights reserved.
+//
+
+#import "AIViewController.h"
+
+@interface AIViewController ()
+
+@end
+
+@implementation AIViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
